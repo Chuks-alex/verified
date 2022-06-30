@@ -1,0 +1,41 @@
+.service__container{
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--dark-grey);
+    box-shadow: 2px 2px 4px  black;
+}
+
+.service__icon{
+    color: rgb(4, 4, 92);
+    font-size: 2rem;
+}
+
+.service{
+    margin: 2rem;
+    
+}
+
+
+.service h3{
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.service p{
+    margin: 0 1rem;
+}
+
+.service__title{
+    margin: 1rem;
+}
+
+.service__title h2{
+    font-size: 2rem;
+    color: goldenrod;
+}
+.service__title p{
+    font-size: 2.8rem;
+}

@@ -1,0 +1,31 @@
+.faq__container{
+    margin-top: 50rem;
+    
+}
+.faq__container h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.move{
+    display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.answer{
+    margin: 0 2rem;
+    padding: 2rem 0;
+    font-size: 1rem;
+   
+    color: rgb(87, 85, 85);
+}
+.faq__btn{
+    border: none;
+    background-color: var(--bg-color);
+    font-size: 1.4rem;
+    font-weight: 800;
+}

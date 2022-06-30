@@ -1,0 +1,43 @@
+.ABOUT__CEO{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 50vh;
+    background-color: #000;
+    margin-top: -3rem;
+}
+.ABOUT__CEO p{
+    font-size: 10px;
+    line-height: 10px;
+    background: url(/src/images/ceomain.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, .02);
+}
+
+.name__role{
+    color: white;
+    position: absolute;
+    right: 0;
+    position: relative;
+    bottom: 20rem;
+    margin-left: 22rem;
+}
+
+.owner{
+    
+    font-size: 1rem;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.owner::before{
+    content: "";
+    background-color: green;
+    color: red;
+  border: 2px solid green;
+}

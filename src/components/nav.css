@@ -1,0 +1,234 @@
+/* .links{
+    visibility: hidden;
+    background-color: blue;
+    border-radius: 0rem 1rem 0 2rem;
+    width: 0vw;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    top: 1.5rem;
+   
+}
+.responsive__nav{
+    visibility: visible;
+    width: 60vw;
+    opacity: 1;
+    
+}
+
+.NAVED{
+    color: blue;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.NAVE{
+    color: red !important;
+    background-color: red;
+    font-size: 2rem;
+    z-index: 1;
+}
+.btn{
+    list-style: none;
+    padding: 2rem;
+    font-size: 1.4rem;
+    width: 0vw;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(196, 192, 192);
+    cursor: pointer;
+}
+
+.active li{
+    background-color: transparent;
+    border: 0.2px red;
+}
+.nav__icons{
+    position: absolute;
+    top:2rem;
+    left: 1rem;
+    z-index: 10;
+}
+
+.ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logo img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 3rem;
+    right: 50%;
+    left: 40%;
+    
+
+}
+
+.cart{
+    padding: 0 2rem;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+   
+}
+.count__cart{
+    font-size: 2rem;
+    color: green;
+}
+.cart p{
+    color: red;
+    position: relative;
+   text-align: end;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+} */
+
+.nav__container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+    position: relative;
+    z-index: 1;
+
+}
+
+.links{
+    width: 0vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: skyblue;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.responsive__nav{
+    width: 50vw;
+    right: inherit;
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(86, 16, 133);
+    font-weight: bold;
+    transition: all 1.2s;
+}
+
+.btn a:hover{
+    color: goldenrod;
+    background-color: blue;
+    justify-content: stretch;
+}
+
+.logo img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 3rem;
+    right: 50%;
+    left: 40%;
+    
+
+}
+li{
+    list-style: none;
+}
+
+.NAVED{
+    color: blue;
+    font-size: 1.5rem;
+    z-index: 1;
+    position: absolute;
+    top: -0.6rem;
+    transition: all 2s ease-in;
+
+}
+
+.NAVE{
+    color: red !important;
+   
+    font-size: 1.5rem;
+    z-index: 1;
+}
+.NAVE .NAVED{
+  
+}
+
+.nav__icons{
+    z-index: 10;
+    position: absolute;
+    top: 1re;
+    right: 2rem;
+}
+
+@media only screen and (min-width:1200px){
+    .nav__icons{
+    display: none;
+
+  }
+
+  .links{
+   position:initial;
+    height: max-content;
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    z-index: 10;
+  margin-top: -2rem;
+  margin-left: -5rem;
+  
+  }
+
+  .ul{
+    height: 4rem;
+    flex-direction: row;
+ 
+
+  }
+
+  .logo img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 0rem;
+   left: 1px;
+   z-index: 10;
+   margin-top: -2rem;
+    
+
+}
+    
+   
+}

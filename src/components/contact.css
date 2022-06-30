@@ -1,0 +1,72 @@
+.contact{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: var(--dark-grey);
+    box-shadow: 2px 2px 2px 0.1px black;
+}
+
+.contact__one{
+    display: flex;
+    flex-direction: column;
+    margin: rem;
+    padding: 1rem;
+    text-align: center;
+    transition: all 1.5s ease-in-out;
+}
+
+.contact__one:hover{
+    border: 1px solid blue;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 1rem;
+    transform:translateX(10%)
+}
+.contact__icon{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.contact__one a{
+    display: block;
+    text-decoration: none;
+}
+
+.insta{
+    color:purple;
+}
+
+.whatsapp{
+    color: green
+}
+.facebook{
+    color: blue;
+}
+
+.contact__head::after{
+    content: "";
+    border: 1px solid green;
+    width: 1rem;
+    height: 4rem;
+    margin-top: 3rem;
+}
+
+.contact__head h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 0.7rem;
+}
+
+.contact__head p{
+    font-size: 1.5rem;
+    margin: 0.3rem 0;
+}
+
+.contact__head h6{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}

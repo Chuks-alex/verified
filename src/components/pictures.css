@@ -1,0 +1,56 @@
+.pictures__container{
+    position: relative;
+    top: 50rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid grey;
+    background: linear-gradient(from blue, to green);
+}
+
+.didd{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-content: center;
+   
+   
+   
+   
+}
+
+
+.pictures img{
+    width: 10rem;
+    padding: 1rem;
+    margin: 0;
+border-radius: 2rem;
+border: none;
+}
+.pictures h3{
+    margin: 5px 5rem;
+    text-transform: capitalize;
+}
+.pictures p{
+    margin: 5px 1rem;
+    text-align: justify;
+    text-transform: capitalize;
+    color: rgb(145, 106, 8);
+}
+
+.pictures__container a{
+    margin-top: 3rem;
+    color: blue;
+    font-weight: 800;
+}
+
+@media screen and (min-width:768px) {
+    .didd{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (min-width:1200px){
+   .didd{
+    grid-template-columns: repeat(4, 1fr);
+   }
+}

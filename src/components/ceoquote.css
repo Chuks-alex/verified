@@ -1,0 +1,12 @@
+.quote{
+    margin: 1rem;
+    padding: 5rem;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.quote p{
+    margin: 0 2rem;
+    font-size: 1.7rem;
+    line-height: 1.2;
+}

@@ -1,0 +1,64 @@
+footer{
+    background-color: black;
+    padding: 2rem;
+
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+   
+
+.first__foot li{
+    text-transform: capitalize;
+    list-style: none;
+    padding: 0.4rem;
+    text-align: start;
+  
+}
+
+.first__foot a{
+    text-transform: capitalize;
+    padding: 1rem;
+   
+}
+
+footer h1{
+    color: white;
+    margin-bottom: 2rem;
+    
+}
+
+.sign__up{
+    padding: 4rem 0;
+}
+
+.sign__up p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+input{
+  padding: 0.5rem; 
+  width: 83%;
+  color: rgb(15, 15, 15);
+  background-color: rgb(182, 179, 179);
+  border: none;
+}
+::placeholder{
+    color: black;
+}
+.sign__up button{
+ background-color: blue;
+ color: white;
+ text-transform: uppercase;
+ border: none;
+ padding: 0.5rem
+}
+
+.copyright{
+    color: white;
+}

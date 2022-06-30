@@ -1,0 +1,145 @@
+.blanche{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: goldenrod;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(/src/images/ceomain.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: -1;
+    animation-name: dike;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation: infinite;
+   
+}
+
+
+
+.blanche span{
+    position: relative;
+    top: 10%;
+
+    font-size: 23vw;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(250, 163, 2, 0.9);
+}
+
+.blanche span:not(:first-child){
+    margin-left: -0.23em;
+}
+
+@keyframes dike{
+    0%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/src/images/human7.avif);}
+    20%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/src/images/human6.avif);}
+    40%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/src/images/human5.avif);}
+    60%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/src/images/human4.avif);}
+    80%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/src/images/human3.avif);}
+    90%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/src/images/human2.avif);}
+    100%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/src/images/human1.avif);}
+
+}
+.luxury{
+    color: rgb(240, 238, 232);
+    position: relative;
+    top: 7em;
+    left: 7rem;
+    text-shadow: 0.1rem 0.2rem  black;
+
+    
+}
+.shop{
+    margin: 10rem 0;
+    position: relative;
+    top: 23rem;
+    background-color: var(--bg-color);
+    padding: 3rem;
+   
+}
+
+.shop__header{
+    padding: 2rem;
+    margin-bottom: 2rem;
+font-size: 2rem;
+border: 2px solid rgb(23, 152, 238);
+box-shadow: 2px 2px 2px 2px grey;
+transition: all 1.2s ease-in-out;
+}
+.shop__header:hover{
+    padding: 0.7rem;
+    background-color: yellowgreen;
+    color: rgb(6, 38, 51);
+    border-color: burlywood;
+
+}
+
+.color-icon{
+    color: blue;
+    font-size: 1.4rem;
+}
+
+.shop h6{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.btn1{
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0.7rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border: none;
+
+}
+.btn1:hover{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+}
+.wig__img img{
+    width: 5rem;
+    border-radius: 0.7rem
+}
+.wig__img{
+   display: flex;
+   flex-direction: column;
+}
+.flex{
+    display: flex;
+   justify-content: space-between;
+   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)),url(/src/images/blanche16.JPG);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.check h6{
+    color: white;
+    padding: 2rem;
+    transition: all 1s ease-in;
+}
+
+h6:hover{
+    color: goldenrod;
+    transform: translate(-10%, -10%);
+}
+
+@media only screen and (min-width: 768px) {
+    .wig__img img{
+            width: 10rem;
+    }
+    .wig__img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}

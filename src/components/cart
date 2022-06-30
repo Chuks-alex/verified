@@ -1,0 +1,145 @@
+import React from "react"
+import blanche1 from "../images/blanche1.JPG"
+import blanche2 from "../images/blanche2.JPG"
+import blanche3 from "../images/blanche3.JPG"
+import blanche4 from "../images/blanche4.JPG"
+import blanche5 from "../images/blanche5.JPG"
+import blanche6 from "../images/blanche6.JPG"
+import blanche7 from "../images/blanche7.JPG"
+import blanche8 from "../images/blanche8.JPG"
+import blanche9 from "../images/blanche9.JPG"
+import blanche10 from "../images/blanche10.JPG"
+import blanche11 from "../images/blanche11.JPG"
+import blanche12 from "../images/blanche12.JPG"
+import blanche13 from "../images/blanche13.JPG"
+import blanche14 from "../images/blanche14.JPG"
+import blanche15 from "../images/blanche15.JPG"
+import blanche16 from "../images/blanche16.JPG"
+import blanche17 from "../images/blanche17.JPG"
+import blanche18 from "../images/blanche18.JPG"
+import blanche19 from "../images/blanche19.JPG"
+import blanche20 from "../images/blanche20.JPG"
+let carrt = [
+    {
+        id: 1,
+        img: blanche1,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 2,
+        img: blanche2,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 3,
+        img: blanche3,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 4,
+        img: blanche4,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 5,
+        img: blanche5,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 6,
+        img: blanche6,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 7,
+        img: blanche7,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 8,
+        img: blanche8,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 9,
+        img: blanche9, 
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 10,
+        img: blanche10,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 11,
+        img: blanche11,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 12,
+        img: blanche12,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 19,
+        img: blanche19,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 13,
+        img: blanche13,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 14,
+        img: blanche14,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 15,
+        img: blanche15,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 16,
+        img: blanche16,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 17,
+        img: blanche17,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 18,
+        img: blanche18,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+    {
+        id: 20,
+        img: blanche20,
+        title: "peruvian twist",
+        price: "$ 100.99"
+    },
+]
+
+export default carrt
